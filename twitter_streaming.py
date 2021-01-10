@@ -1,10 +1,11 @@
 import twitter,json,csv
 
-CONSUMER_KEY = "nxwgrAxA28vXNY4bAhuUStvQe"
-CONSUMER_SECRET = "26DWQPiS4gkRl8iVjJLpWLpfwempNQOUXLGiW0stAa6iCUfz5E"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
-OAUTH_TOKEN = "881541088867106817-MqAPoFz4BsVCNEvzsTDwABJBGpmJquz" 
-OAUTH_TOKEN_SECRET = "SV9r3Qg1SdDbwmsS1cKa4K2KYyHKR2F50fDMYNmKKI1pi"
+OAUTH_TOKEN = "" 
+OAUTH_TOKEN_SECRET = ""
+# because I'm not familiar with Github, I remove the Twitter developer key for safe
 
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
