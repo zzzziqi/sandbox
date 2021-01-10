@@ -5,7 +5,7 @@ CONSUMER_SECRET = ""
 
 OAUTH_TOKEN = "" 
 OAUTH_TOKEN_SECRET = ""
-# because I'm not familiar with Github, I remove the Twitter developer key for safe
+# because I'm not familiar with Github, I remove the Twitter developer key for safety
 
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
